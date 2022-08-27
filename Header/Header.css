@@ -1,0 +1,38 @@
+.header{
+    min-height: 100vh;
+    background: linear-gradient(to right, #6ac6f4, #52ff9a);
+    z-index: 999;
+}
+.header-content .text-lead{
+    margin: 3.9rem 0 5.0rem 0;
+}
+.header-title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    background: linear-gradient(to right, var(--clr-black), var(--clr-black));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-btn{
+    align-self: center!important;
+    border-radius: 20px;
+}
+
+.header-btn:hover{
+    color: rgb(79, 78, 78);
+    background-color: rgb(89, 210, 244);
+}
+
+.header-btn span{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 600px){
+    .header-title{
+        font-size: 88px;
+    }
+    .header-content *{
+        max-width: 920px;
+    }
+}

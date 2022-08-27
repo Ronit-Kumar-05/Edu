@@ -1,0 +1,41 @@
+.about-content{
+    row-gap: 40px;
+}
+
+.abouuut{
+    background: linear-gradient(to right, #6ac6f4, #52ff9a);
+}
+
+.section-t{
+    color: black;
+}
+
+.content-right{
+    border-radius: 10px;
+}
+
+.moto{
+    text-decoration: underline;
+}
+
+.text{
+    font-size: 15px;
+    color: black;
+}
+
+@media screen and (min-width: 768px){
+    .about-content{
+        text-align: left;
+    }
+    .content-left{
+        
+    }
+}
+
+@media screen and (min-width: 992px){
+    .about-content{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        column-gap: 90px;
+    }
+}
